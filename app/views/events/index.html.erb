@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Events</h1>
+
+
+    <% @events.each do |event| %>
+    <%= image_tag event.zdjecie, class:'zdj' %>
+<div class='tytul'>
+        <%= event.tytul %>:
+      </div>
+        <br>
+        <p class='opis'>
+        <%= event.opis %>
+      </p>
+        <br>
+        <br>
+        <%= link_to 'wiecej', event,class:'link' %>
+<div style='clear:both;'>
+</div>
+<br>
+<br>
+    <% end %>
+
+
+<br>
+<%= link_to 'New Event', new_event_path,class:'link' %>

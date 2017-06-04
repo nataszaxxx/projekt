@@ -1,0 +1,43 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.zdj{width:350px;
+float:right;}
+.naglowek{color:hsl(230,83%,37%);
+  font-size:300%;
+  font-family:monospace;
+border-bottom:2px solid green;
+padding-bottom:8px}
+body{background-color:hsl(13,34%,61%)}
+.tytul{font-weight: bold;
+font-size: 2em;
+font-style:italic;
+color:green;
+font-family: fantasy;}
+.opis{font-weight:bold;
+font-size:1.5em;
+font-style:italic;
+color:black;
+font-family: inherit;}
+.link{border-top: 2px solid white;
+border-left: 2px solid white;
+border-bottom: 2px solid black;
+border-right: 2px solid black;}
+.link{padding:5px 10px 5px}
+.link:hover{border-top: 2px solid black;
+border-left: 2px solid black;
+border-bottom: 2px solid white;
+border-right: 2px solid white;}
+.link{padding:5px 10px 5px}
